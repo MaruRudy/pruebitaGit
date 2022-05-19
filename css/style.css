@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F9F3EE;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive; 
+    color: #97C4B8;
+    font-size: 50px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    color:#97C4B8;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    }
+
+nav ul li{
+    background-color: #F9CEEE;
+    border-radius: 1rem ;
+    padding: 0.3rem;
+    }
+
+    
+nav ul li a{
+    text-decoration: none;
+    color: #97C4B8;
+
+    }
+
+main p{
+    background-color: #CCF3EE;
+    margin: 10px 10px 20px 20px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.imagen1{
+    width: 50%;
+}
+
+.imagen2{
+    width: 50%;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "parrafo imagen1"
+        "imagen2 imagen2";
+}
+
+.parrafo{
+    grid-area: parrafo;
+}
+
+
+.imagen1{
+    grid-area: imagen1;
+}
+
+
+.imagen2{
+    grid-area: imagen2;
+}
+
+.footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
